@@ -1,0 +1,6 @@
+*.db.lock
+*.lock
+/1 Single responsability principle/C sharp/.vs/ConsoleApp1/v15/Server/sqlite3
+/1 Single responsability principle/C sharp/.vs/ConsoleApp1/v15
+/2 Open Close principle/C sharp/OpenClosePrinciple/.vs/OpenClosePrinciple/v15
+/2 Open Close principle/C sharp/OpenClosePrinciple/OpenClosePrinciple/obj/Debug
