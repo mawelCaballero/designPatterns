@@ -1,0 +1,7 @@
+C:\Users\Mawel\source\repos\Design patterns\2_Open_Close_principle\C_sharp\OpenClosePrinciple\OpenClosePrinciple\bin\Debug\OpenClosePrinciple.exe.config
+C:\Users\Mawel\source\repos\Design patterns\2_Open_Close_principle\C_sharp\OpenClosePrinciple\OpenClosePrinciple\bin\Debug\OpenClosePrinciple.exe
+C:\Users\Mawel\source\repos\Design patterns\2_Open_Close_principle\C_sharp\OpenClosePrinciple\OpenClosePrinciple\bin\Debug\OpenClosePrinciple.pdb
+C:\Users\Mawel\source\repos\Design patterns\2_Open_Close_principle\C_sharp\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.csprojAssemblyReference.cache
+C:\Users\Mawel\source\repos\Design patterns\2_Open_Close_principle\C_sharp\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.csproj.CoreCompileInputs.cache
+C:\Users\Mawel\source\repos\Design patterns\2_Open_Close_principle\C_sharp\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.exe
+C:\Users\Mawel\source\repos\Design patterns\2_Open_Close_principle\C_sharp\OpenClosePrinciple\OpenClosePrinciple\obj\Debug\OpenClosePrinciple.pdb

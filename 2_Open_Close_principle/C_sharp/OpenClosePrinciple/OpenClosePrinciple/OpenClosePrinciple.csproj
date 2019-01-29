@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Filter.cs" />
+    <Compile Include="IFiltering.cs" />
+    <Compile Include="ISpecification.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductCategory.cs" />
+    <Compile Include="ProductFilter.cs" />
+    <Compile Include="ProductSeller.cs" />
+    <Compile Include="ProductTypeSpecification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
