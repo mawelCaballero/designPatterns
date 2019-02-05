@@ -43,19 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filter.cs" />
-    <Compile Include="IFiltering.cs" />
-    <Compile Include="ISpecification.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductCategory.cs" />
-    <Compile Include="ProductFilter.cs" />
-    <Compile Include="ProductSeller.cs" />
-    <Compile Include="ProductTypeSpecification.cs" />
+    <Compile Include="filter\AdvancedProductFilter.cs" />
+    <Compile Include="filter\IFiltering.cs" />
+    <Compile Include="specifications\AndSpecification.cs" />
+    <Compile Include="specifications\ProductSellerSpecification.cs" />
+    <Compile Include="specifications\ISpecification.cs" />
+    <Compile Include="model\Product.cs" />
+    <Compile Include="model\ProductCategory.cs" />
+    <Compile Include="filter_worse\ProductFilter.cs" />
+    <Compile Include="model\ProductSeller.cs" />
+    <Compile Include="specifications\ProductCategorySpecification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

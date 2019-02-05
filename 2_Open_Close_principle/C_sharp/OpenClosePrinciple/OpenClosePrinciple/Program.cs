@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OpenClosePrinciple.specifications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace OpenClosePrinciple
         {
 
             var HereditaryMovie = new Product("Hereditary Blue ray", ProductCategory.BLUE_RAY,
-                ProductSeller.ONLINE);
+                ProductSeller.STORE);
 
             var CondormanMovie = new Product("Condorman Blue ray", ProductCategory.BLUE_RAY,
                 ProductSeller.ONLINE);
@@ -22,17 +23,27 @@ namespace OpenClosePrinciple
 
             Product[] products = { HereditaryMovie, CondormanMovie, BattleZone };
 
+
             var ProductsFiltered = ProductFilter.FilterProductsByCategory(products, ProductCategory.BLUE_RAY);
+            Console.WriteLine("Filtrados por BlueRay con el Filtro Malo");
+
             PrintProducts(ProductsFiltered);
 
-            ProductCategorySpecification pts = new ProductCategorySpecification(ProductCategory.BLUE_RAY);
-
             var AdvancedFilterProducts = new Filter();
-            var productsFilteredBySpec = AdvancedFilterProducts.ExecuteFilter(products, pts);
-            PrintProducts(productsFilteredBySpec);
+
+            ProductCategorySpecification productBlueRaysSpec = new ProductCategorySpecification(ProductCategory.BLUE_RAY);
+            ProductSellerSpecification productSellerSpecification = new ProductSellerSpecification(ProductSeller.ONLINE);
+            // Creates a new specification for another product by selling online 
+
+            Console.WriteLine("Filtrados por BlueRay");
+            PrintProducts(AdvancedFilterProducts.ExecuteFilter(products, productBlueRaysSpec));
+            Console.WriteLine("Filtrados por Online");
+            PrintProducts(AdvancedFilterProducts.ExecuteFilter(products, productSellerSpecification));
+            Console.WriteLine("Filtrados por BlueRay y Online");
+            PrintProducts(AdvancedFilterProducts.ExecuteFilter(products, new AndSpecification<Product>(productBlueRaysSpec, productSellerSpecification)));
 
 
-            
+
 
         }
 
