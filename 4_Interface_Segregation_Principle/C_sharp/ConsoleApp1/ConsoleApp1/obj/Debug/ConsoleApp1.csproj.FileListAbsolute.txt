@@ -1,0 +1,7 @@
+C:\Users\Mawel\source\repos\Design patterns\4_Interface_Segregation_Principle\C_sharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Mawel\source\repos\Design patterns\4_Interface_Segregation_Principle\C_sharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Mawel\source\repos\Design patterns\4_Interface_Segregation_Principle\C_sharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Mawel\source\repos\Design patterns\4_Interface_Segregation_Principle\C_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Mawel\source\repos\Design patterns\4_Interface_Segregation_Principle\C_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Mawel\source\repos\Design patterns\4_Interface_Segregation_Principle\C_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Mawel\source\repos\Design patterns\4_Interface_Segregation_Principle\C_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
